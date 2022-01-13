@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+   
 }
 .login_form{
     display: flex;
@@ -24,4 +24,24 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    height: auto;
+    background-color: bisque;
+    transition: 0.3s ease;
+}
+.left a:hover{
+    background-color: aquamarine;
+
+}
+.nav .left, .right{
+    padding:10px 20px;
+    font-size: 1.1em;
+    
+}
+a{
+    margin-left: 10px; 
+    text-decoration: none;
+    color: rgb(247, 250, 255);
+}
+.right{
+    margin-right: 50px;
 }
