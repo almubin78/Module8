@@ -1,0 +1,29 @@
+.photo_album{
+    display:flex;
+    flex-wrap: wrap;
+}
+.photo_frame{
+    width:200px;
+    height: 200px;
+    border:2px solid gray;
+    border-radius: 10px;
+    position:relative;
+    overflow: hidden;    
+}
+.photo_detail{
+    display:none;
+    position:absolute;
+    top:0;
+    padding:10px;
+    background-color: rgba(white, green, blue, 0.9);
+
+}
+.photo_frame:hover .photo_detail{
+    display:block;
+}
+.photo{
+    transition:transform 3s ease-in 0.2s;
+}
+.photo_frame:hover .photo{
+    transform:scale(1.3);
+}

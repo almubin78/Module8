@@ -18,3 +18,10 @@
     background-color: rgb(166, 233, 226);
     color: rgb(85, 44, 44);
 }
+.year{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: goldenrod;
+}

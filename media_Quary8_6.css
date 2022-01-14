@@ -1,0 +1,16 @@
+.menu_container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.food{width: 300px;
+padding:0 5px;
+margin-left:20px;
+margin-bottom: 20px;
+}
+
+.food img{
+    width:75%;
+
+}
